@@ -3,9 +3,7 @@ from threading import Thread
 import threading
 import os
 
-HOST = "10.101.129.29"
-##HOST = "192.168.1.123"
-##HOST = socket.gethostbyname(socket.gethostname()) 
+HOST = "0.0.0.0"
 print(socket.gethostname())
 PORT = 8080
 clients = set()
