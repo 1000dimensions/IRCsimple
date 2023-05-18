@@ -8,9 +8,7 @@ import subprocess
 """Dear me you need to upgrade this to include sqlite stuff.
 I mean come on dude, chat history is amazing.
 Also remember to load the latest working version to saves, incase of murphy's law"""
-HOST = "10.101.129.29" ##This is school
-##HOST = "192.168.1.123" ##This is home
-##HOST = socket.gethostbyname('1000D') 
+HOST = "127.0.0.1"
 PORT = 8080
 TAG = input("Enter screenname:")
 global stuff
